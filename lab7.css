@@ -1,0 +1,38 @@
+button{
+	border-radius: 0px;
+	border: 1px silver solid;
+}
+.square{
+	width: 120px;
+	height: 120px;
+	background-color:red;
+	border: 1px black solid;
+	position: absolute;
+	opacity: 0.8;
+}
+.circle {   
+	width: 450px;
+	height: 450px;
+	background: green;
+    border-radius: 300px;
+    border: 1px solid black;
+	position: absolute;
+    opacity: 0.8;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+    border-bottom: 100px solid blue;
+	position: absolute;
+    opacity: 0.8;
+}
+main{
+	width: 1000px;
+	height: 700px;
+	margin: 50px;
+    margin-left: 100px;
+	position: relative;
+}
